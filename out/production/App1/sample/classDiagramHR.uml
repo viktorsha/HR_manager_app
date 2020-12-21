@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="228.0" y="0.0">sample.Navigatable</node>
+    <node x="0.0" y="475.0">sample.DataHandler</node>
+    <node x="0.0" y="90.0">sample.Employee</node>
+    <node x="0.0" y="245.0">sample.RoleHolder</node>
+    <node x="148.0" y="245.0">sample.SocketHolder</node>
+    <node x="132.0" y="90.0">sample.EmployeeEdit</node>
+    <node x="233.0" y="400.0">sample.User</node>
+    <node x="213.0" y="320.0">sample.HrManager</node>
+    <node x="181.0" y="475.0">sample.Server</node>
+    <node x="0.0" y="400.0">sample.DatabaseHandler</node>
+    <node x="428.0" y="90.0">sample.EmployeeManagement</node>
+    <node x="378.0" y="320.0">sample.WidgetHandler</node>
+    <node x="296.0" y="90.0">sample.MainPage</node>
+    <node x="172.0" y="165.0">sample.Holder</node>
+    <node x="18.5" y="0.0">sample.ReactStatus</node>
+    <node x="312.0" y="245.0">sample.UserHolder</node>
+    <node x="32.0" y="320.0">sample.Configs</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="sample.DatabaseHandler" target="sample.Configs">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="sample.User" target="sample.HrManager">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="sample.EmployeeManagement" target="sample.Navigatable">
+      <point x="0.0" y="-15.0" />
+      <point x="524.0" y="60.0" />
+      <point x="347.0" y="60.0" />
+      <point x="51.0" y="15.0" />
+    </edge>
+    <edge source="sample.SocketHolder" target="sample.Holder">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="sample.MainPage" target="sample.Navigatable">
+      <point x="0.0" y="-15.0" />
+      <point x="352.0" y="70.0" />
+      <point x="313.0" y="70.0" />
+      <point x="17.0" y="15.0" />
+    </edge>
+    <edge source="sample.EmployeeEdit" target="sample.ReactStatus">
+      <point x="-36.0" y="-15.0" />
+      <point x="168.0" y="50.0" />
+      <point x="120.5" y="50.0" />
+      <point x="34.0" y="15.0" />
+    </edge>
+    <edge source="sample.EmployeeEdit" target="sample.Navigatable">
+      <point x="36.0" y="-15.0" />
+      <point x="240.0" y="70.0" />
+      <point x="279.0" y="70.0" />
+      <point x="-17.0" y="15.0" />
+    </edge>
+    <edge source="sample.Employee" target="sample.ReactStatus">
+      <point x="-28.0" y="-15.0" />
+      <point x="28.0" y="70.0" />
+      <point x="52.5" y="70.0" />
+      <point x="-34.0" y="15.0" />
+    </edge>
+    <edge source="sample.UserHolder" target="sample.Holder">
+      <point x="0.0" y="-15.0" />
+      <point x="376.0" y="220.0" />
+      <point x="252.0" y="220.0" />
+      <point x="32.0" y="15.0" />
+    </edge>
+    <edge source="sample.Employee" target="sample.Navigatable">
+      <point x="28.0" y="-15.0" />
+      <point x="84.0" y="60.0" />
+      <point x="245.0" y="60.0" />
+      <point x="-51.0" y="15.0" />
+    </edge>
+    <edge source="sample.RoleHolder" target="sample.Holder">
+      <point x="0.0" y="-15.0" />
+      <point x="64.0" y="220.0" />
+      <point x="188.0" y="220.0" />
+      <point x="-32.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0280846063454758" x="454.0" y="251.41354166666665" />
+  <SelectedNodes>
+    <node>sample.Navigatable</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
